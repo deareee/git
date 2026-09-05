@@ -1,0 +1,58 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output and coverage
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.output/
+target/
+
+# Caches and temporary files
+.cache/
+.parcel-cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local test and tool state
+.coverage
+.nyc_output/
+.tox/
+.venv/
+venv/
+env/
